@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Retail Predictor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Online Retail Predictor</h1>
+    <form id="predictForm">
+        <label>Quantity: <input type="number" step="any" name="Quantity" required></label><br>
+        <label>Unit Price: <input type="number" step="any" name="UnitPrice" required></label><br>
+        <label>Invoice Month: <input type="number" min="1" max="12" name="InvoiceMonth" required></label><br>
+        <label>Country (code): <input type="number" name="Country" required></label><br>
+        <button type="submit">Predict</button>
+    </form>
+    <h2 id="result"></h2>
+
+    <script src="app.js"></script>
+</body>
+</html>

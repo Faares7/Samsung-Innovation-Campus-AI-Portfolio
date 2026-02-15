@@ -1,0 +1,23 @@
+Online-Retail-Project/
+├─ data/
+│  ├─ online_retail.csv
+├─ src/
+│  ├─ train.py
+│  ├─ preprocess.py
+│  ├─ model.joblib
+│  ├─ api/
+│  │  ├─ app.py         # FastAPI app
+│  │  ├─ requirements.txt
+│  ├─ static/
+│  │  ├─ index.html
+│  │  ├─ style.css
+│  │  ├─ app.js
+│  └─ processed/
+│     └─ retail_processed.csv
+├─ Dockerfile
+├─ .gitignore
+├─ README.md
+├─ How_To_Use.md
+├─ requirements.txt
+└─ pipeline.txt
+
